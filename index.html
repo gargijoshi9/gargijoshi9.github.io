@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>restaurant web</title>
+    <link rel="stylesheet" href="style.css">
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
+    rel="stylesheet"
+/>
+<link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+
+    <link rel="icon" type="image/x-icon" href="images/shape-9.png"/>
+</head>
+
+    <body>
+        <a id="top"></a>
+
+        <header id="home">
+            <nav class="navbar">
+                <div class="logo">
+                    <img src="images/shape-9.png" alt="">
+                    <span>food in</span>
+                </div>
+    
+                <ul class="nav_items" id="nav_links">
+                    <div class="item">
+                        <li><a href="#home">HOME</a></li>
+                        <li><a href="#menu">MENU</a></li>
+                        <li><a href="#about">ABOUT</a></li>
+                        <li><a href="#booking">BOOK</a></li>
+                        <li><a href="#contact">CONTACT</a></li>
+                        <li><a href="#feedback">FEEDBACK</a></li>
+                    </div>
+                    
+                </ul>
+    
+                <div class="nav_menu" id="menu_btn">
+                    <i class="ri-menu-line"></i>
+                </div>
+            </nav>
+            <section class="main">
+                
+                <span class="heading_1">welcome to Food In restaurant</span>
+                <span class="heading">enjoy our <br>delicious meal</span>
+                
+            </section>
+        </header>
+    
+        <!-- _________menu section -->
+        <section class="sec" id="menu"> 
+            <div class="head">
+                <h3 class="heading_1">our menu</h3>
+                <h1 class="heading">popular <span>dishes</span></h1>
+            </div>
+            <div class="boxes">
+                <div class="box">
+                    <img src="images/burger copy.png" alt="Pancakes" ></img>
+                    <h4>🍔 Classic Burger</h4>
+                    <p>₹249</p>
+                </div>
+                <div class="box">
+                    <img src="images/pizza.jpg" alt="Pizza" ></img>
+                    <h4>🍕 Pepperoni Pizza</h4>
+                    <p>₹329</p>
+                </div>
+                <div class="box">
+                    <img src="images/icedtea.png" alt="icedtea" ></img>
+                    <h4>🍹 Iced tea</h4>
+                    <p>₹179</p>
+                </div>
+                <div class="box">
+                    <img src="images/noodles.png" alt="paghetti" ></img>
+                    <h4>🍝 Spaghetti Carbonara</h4>
+                    <p>₹279</p>
+                </div>
+                <div class="box">
+                    <img src="images/cheese cake.png" alt="Cheesecake" ></img>
+                    <h4>🍰 Cheesecake</h4>
+                    <p>₹199</p>
+                </div>
+                <div class="box">
+                    <img src="images/pancakes.jpg" alt="Pancakes" ></img>
+                    <h4>🥞 Pancakes</h4>
+                    <p>₹189</p>
+                </div>
+            </div>
+        </section>
+    
+        <!-- _________about us -->
+        <section class="sec about" id="about">
+            <div class="head about_heading">
+                
+                <h3 class="heading_1">About us</h3>
+                <h1 class="heading">we serve <span>delicious food</span> with love</h1>
+                <p class="para">At Food In, we're passionate about creating memorable dining experiences with the freshest ingredients and fast service. Whether you're dining in or taking out, we promise quality food and friendly service every time.</p>
+            </div>
+            
+        </section>
+    
+        <!-- _________book a table -->
+        <section class="sec" id="booking">
+            <div class="head">
+                <h3 class="heading_1">reservation</h3>
+                <h1 class="heading">book a <span>table</span></h1>
+            </div>
+            <form class="booking_form"  >
+                <li><input type="text" placeholder="Your Name" required /></li><br>  
+                <li><input type="email" placeholder="Your Email" required /></li><br>
+                <li><input type="datetime-local" placeholder="DD/MM/YYYY" required /></li><br> 
+                <li><input type="number" placeholder="Number of Guests" min="1" required /></li><br>
+                <button class="btn btn1" type="submit">Book Now</button>
+            </form>
+        </section>
+    
+        <!-- _________contact -->
+        <section class="sec contact" id="contact">
+            <div class="contact_box">
+                <div class="left_box">
+                    <h2 class="heading_1">contact us </h2>
+                    <h1 class="heading">Reach us at!</h1>
+                    <UL class="footer_socials2">
+                        <li><a href="#"><i class="ri-mail-fill"></i></a> foodin@gmail.com</li>
+                        <li><a href="#"><i class="ri-phone-fill"></i></a> +91 8726159011</li>
+                    </UL>
+                    <br>
+                        
+                    <ul class="footer_socials">
+                        
+                        <li><a href="#"><i class="ri-instagram-fill"></i></a></li>
+                        <li><a href="#"><i class="ri-facebook-fill"></i></a></li>
+                        <li><a href="#"><i class="ri-twitter-fill"></i></a></li>
+                        
+                    </ul>
+                    
+                    
+                </div>
+                <div class="right_box">
+                   
+                </div>
+            </div>
+        </section>
+    
+        <!-- _________feedback -->
+        <section class="sec" id="feedback">
+            <div class="head">
+                <h3 class="heading_1">your feedback</h3>
+                <h1 class="heading">we <span>value</span> your thoughts</h1>
+            </div>
+            <form class="feedback_form" >
+               <li><input type="text" placeholder="Your Name" required /></li><br> 
+               <li><textarea rows="4" placeholder="Your Comments..." required></textarea></li><br>
+                <button class="btn btn1" type="submit">Submit Feedback</button>
+            </form>
+        </section>
+    
+        <!-- _________footer -->
+        <footer>
+            
+            </div>
+            <div class="footer_bar">
+                copyright © food in . All rights reserved.
+            </div>
+        </footer>
+    
+      
+        <a href="#top" class="top" >
+            <i class="ri-arrow-up-circle-line"></i>
+          </a>
+    </body>
+    
+
+</html>
