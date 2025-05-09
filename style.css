@@ -7,10 +7,12 @@
     transition: all 0.5s linear;
     color: #fff;
     text-transform: capitalize;
+    scroll-behavior: smooth;
 }
 body{
     background-color: #1A1110;
     font-family: "Lato", sans-serif;
+   
 }
 header{
     position: relative;
@@ -40,7 +42,7 @@ header{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    z-index: 10; /* i changed here */
+    z-index: 10; 
     top: 0;
 
 }
@@ -109,11 +111,9 @@ header{
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    background-attachment: fixed;
     z-index: 1;
-    margin-bottom: 2vh; /* space after the section */
-    
   
-    
 }
 
 /* Animation */
@@ -400,12 +400,13 @@ header{
     margin-left: 14rem;
     gap: 1.5rem;
     list-style: none;
+    text-decoration:none;
 }
 .footer_socials2{
     display:grid;
     align-items: center;
-    
-    gap: 1rem;
+    margin-left: 14rem;
+    gap: 1.5rem;
     list-style: none;
 }
 .footer_socials a{
